@@ -1,0 +1,53 @@
+.orange {
+  background-color: orange;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.vert-degeu {
+  background-color: #33ffbb;
+}
+
+.bisque {
+  background-color: bisque;
+}
+
+.pad-5 {
+  padding-left: 5% !important;
+}
+
+.h-95 {
+  height: 95%;
+}
+
+.h-32 {
+  height: 30%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+/*# sourceMappingURL=style.css.map */
