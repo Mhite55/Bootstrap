@@ -18,8 +18,40 @@
   background-color: #33ffbb;
 }
 
-.bisque {
-  background-color: bisque;
+.bleu-degeu {
+  background-color: #4095BF;
+}
+
+.marron-chiasse {
+  background-color: #BFAA40;
+}
+
+.vert-bleu {
+  background-color: #40BF80;
+}
+
+.rouge-bizare {
+  background-color: #BF5540;
+}
+
+.vert-pomme {
+  background-color: #6ABF40;
+}
+
+.vomi {
+  background-color: #AABF40;
+}
+
+.purplee {
+  background-color: #BF40BF;
+}
+
+.orange-red {
+  background-color: #BF6A40;
+}
+
+.orange-moche {
+  background-color: #BF9540;
 }
 
 .pad-5 {
@@ -30,7 +62,7 @@
   height: 95%;
 }
 
-.h-32 {
+.h-30 {
   height: 30%;
 }
 
@@ -42,12 +74,227 @@
   height: 40%;
 }
 
-.h-25 {
-  height: 25%;
+.h-20 {
+  height: 20%;
 }
 
-.h-75 {
-  height: 75%;
+.h-80 {
+  height: 80%;
+}
+
+.h-5 {
+  height: 5%;
+}
+
+.h-15 {
+  height: 15%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-85 {
+  height: 85%;
+}
+
+.h-35 {
+  height: 35%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+@media screen and (min-width: 0) {
+  .si-h-xs-5 {
+    height: 5% !important;
+  }
+  .si-h-xs-10 {
+    height: 10% !important;
+  }
+  .si-h-xs-15 {
+    height: 15% !important;
+  }
+  .si-h-xs-20 {
+    height: 20% !important;
+  }
+  .si-h-xs-25 {
+    height: 25% !important;
+  }
+  .si-h-xs-30 {
+    height: 30% !important;
+  }
+  .si-h-xs-35 {
+    height: 35% !important;
+  }
+  .si-h-xs-40 {
+    height: 40% !important;
+  }
+  .si-h-xs-45 {
+    height: 45% !important;
+  }
+  .si-h-xs-50 {
+    height: 50% !important;
+  }
+  .si-h-xs-55 {
+    height: 55% !important;
+  }
+  .si-h-xs-60 {
+    height: 60% !important;
+  }
+  .si-h-xs-65 {
+    height: 65% !important;
+  }
+  .si-h-xs-70 {
+    height: 70% !important;
+  }
+  .si-h-xs-75 {
+    height: 75% !important;
+  }
+  .si-h-xs-80 {
+    height: 80% !important;
+  }
+  .si-h-xs-85 {
+    height: 85% !important;
+  }
+  .si-h-xs-90 {
+    height: 90% !important;
+  }
+  .si-h-xs-95 {
+    height: 95% !important;
+  }
+  .si-h-xs-100 {
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .si-h-sm-5 {
+    height: 5% !important;
+  }
+  .si-h-sm-10 {
+    height: 10% !important;
+  }
+  .si-h-sm-15 {
+    height: 15% !important;
+  }
+  .si-h-sm-20 {
+    height: 20% !important;
+  }
+  .si-h-sm-25 {
+    height: 25% !important;
+  }
+  .si-h-sm-30 {
+    height: 30% !important;
+  }
+  .si-h-sm-35 {
+    height: 35% !important;
+  }
+  .si-h-sm-40 {
+    height: 40% !important;
+  }
+  .si-h-sm-45 {
+    height: 45% !important;
+  }
+  .si-h-sm-50 {
+    height: 50% !important;
+  }
+  .si-h-sm-55 {
+    height: 55% !important;
+  }
+  .si-h-sm-60 {
+    height: 60% !important;
+  }
+  .si-h-sm-65 {
+    height: 65% !important;
+  }
+  .si-h-sm-70 {
+    height: 70% !important;
+  }
+  .si-h-sm-75 {
+    height: 75% !important;
+  }
+  .si-h-sm-80 {
+    height: 80% !important;
+  }
+  .si-h-sm-85 {
+    height: 85% !important;
+  }
+  .si-h-sm-90 {
+    height: 90% !important;
+  }
+  .si-h-sm-95 {
+    height: 95% !important;
+  }
+  .si-h-sm-100 {
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .si-h-lg-5 {
+    height: 5% !important;
+  }
+  .si-h-lg-10 {
+    height: 10% !important;
+  }
+  .si-h-lg-15 {
+    height: 15% !important;
+  }
+  .si-h-lg-20 {
+    height: 20% !important;
+  }
+  .si-h-lg-25 {
+    height: 25% !important;
+  }
+  .si-h-lg-30 {
+    height: 30% !important;
+  }
+  .si-h-lg-35 {
+    height: 35% !important;
+  }
+  .si-h-lg-40 {
+    height: 40% !important;
+  }
+  .si-h-lg-45 {
+    height: 45% !important;
+  }
+  .si-h-lg-50 {
+    height: 50% !important;
+  }
+  .si-h-lg-55 {
+    height: 55% !important;
+  }
+  .si-h-lg-60 {
+    height: 60% !important;
+  }
+  .si-h-lg-65 {
+    height: 65% !important;
+  }
+  .si-h-lg-70 {
+    height: 70% !important;
+  }
+  .si-h-lg-75 {
+    height: 75% !important;
+  }
+  .si-h-lg-80 {
+    height: 80% !important;
+  }
+  .si-h-lg-85 {
+    height: 85% !important;
+  }
+  .si-h-lg-90 {
+    height: 90% !important;
+  }
+  .si-h-lg-95 {
+    height: 95% !important;
+  }
+  .si-h-lg-100 {
+    height: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

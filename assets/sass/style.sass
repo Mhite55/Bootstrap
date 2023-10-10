@@ -1,7 +1,17 @@
 $vert-degeu : #33ffbb
+$bleu-degeu : #4095BF
+$marron-chiasse : #BFAA40
+$vert-bleu: #40BF80
+$rouge-bizare: #BF5540
+$vert-pomme: #6ABF40
+$vomi: #AABF40
+$purplee: #BF40BF
+$orange-red : #BF6A40
+$orange-moche : #BF9540
 
-$colors-names: "orange", "cyan", "pink", "lime", "vert-degeu","bisque"
-$colors-array: orange, cyan, pink, lime, $vert-degeu, bisque
+
+$colors-names: "orange", "cyan", "pink", "lime", "vert-degeu","bleu-degeu","marron-chiasse","vert-bleu","rouge-bizare","vert-pomme","vomi","purplee","orange-red","orange-moche"
+$colors-array: orange, cyan, pink, lime, $vert-degeu, $bleu-degeu, $marron-chiasse, $vert-bleu, $rouge-bizare, $vert-pomme, $vomi, $purplee, $orange-red, $orange-moche
 
 @each $color in $colors-array
     $i: index($colors-array, $color)
@@ -12,13 +22,35 @@ $colors-array: orange, cyan, pink, lime, $vert-degeu, bisque
 
 .h-95 
     height: 95%
-.h-32 
+.h-30 
     height: 30%
 .h-10
     height: 10%
 .h-40
     height: 40%
-.h-25
-    height: 25%
-.h-75
-    height: 75%
+.h-20
+    height: 20%
+.h-80
+    height: 80%
+.h-5
+    height: 5%
+.h-15
+    height: 15%
+.h-100
+    height: 100%
+.h-85
+    height: 85%
+.h-35 
+    height: 35%
+.h-90
+    height: 90%
+.h-60
+    height: 60%
+    
+$grid-breakpoints: ( xs: 0, sm: 576px, lg: 992px )
+
+@each $break-point, $value in $grid-breakpoints
+    @media screen and (min-width: $value)
+        @for $i from 1 through 20
+            .si-h-#{$break-point}-#{$i * 5}
+                height: $i * 5% !important
